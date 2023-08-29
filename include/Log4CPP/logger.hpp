@@ -44,7 +44,7 @@
             }
 
             void sucess(std::string str) {
-                this->log("SUCESS", "\033[32m", str, "");
+                this->log("SUCESS", "\e[0;32m", str, "");
             }
 
             void warning(std::string str) {
